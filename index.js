@@ -25,11 +25,6 @@ const questions = [
         message: 'How do you use this application? Provide instructions and examples for use.',
     },
     {
-        type: 'input',
-        name: 'credits',
-        message: 'List collaborator with links to their Github profiles.',
-    },
-    {
         type: 'list',
         name: 'license',
         message: 'List all license here.',

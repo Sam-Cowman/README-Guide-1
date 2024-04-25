@@ -74,10 +74,6 @@ ${data.installation}
 
 ${data.usage}
 
-## Credits 
-
-${data.credits}
-
 ${licenseSection}
 
 ## Contributing 
