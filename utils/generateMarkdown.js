@@ -62,20 +62,35 @@ ${data.description}
 - [Usage](#usage)
 - [Credits](#credits)
 ${licenseSection ? '- [License](#license)\n' : ''}
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-## Installation {#installation}
+## Installation 
 
 ${data.installation}
 
-## Usage {#usage}
+## Usage 
 
 ${data.usage}
 
-## Credits {#credits}
+## Credits 
 
 ${data.credits}
 
 ${licenseSection}
+
+## Contributing 
+${data.contributors}
+
+## Tests
+${data.test}
+
+## Questions
+If you have any questions about this project, please contact me directly:
+
+- GitHub: [${data.github}](https://github.com/${data.github})
+- Email: ${data.email}
 `;
 }
 
