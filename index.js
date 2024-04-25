@@ -12,7 +12,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provided a short description to explain that what, why and how of your project.',
+        message: 'Provided a short description to explain the what, why and how of your project.',
     },
     {
         type: 'input',
@@ -22,7 +22,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for use.',
+        message: 'How do you use this application? Provide instructions and examples for use.',
     },
     {
         type: 'input',
@@ -34,6 +34,26 @@ const questions = [
         name: 'license',
         message: 'List all license here.',
         choices: ['MIT', 'Apache 2.0', 'GNU General Public License', 'BSD 3-Clause License', 'ISC License'],
+    },
+    {
+        type: 'input',
+        name: 'test', 
+        message: 'What command should be run to run tests?',
+    },
+    {
+        type: 'input',
+        name: 'contributors',
+        message: 'What does the user need to know about contributing to the repo?'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your github?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?'
     },
   ];
   
