@@ -59,7 +59,7 @@ function writeToFile(fileName, data) {
         console.error(err);
         return;
       }
-      console.log('README.md successfully generated!');
+      console.log('GENERATOR.md successfully generated!');
     });
   }
   
@@ -69,8 +69,8 @@ function init() {
     inquirer
       .prompt(questions)
       .then((answers) => {
-        const readmeContent = generateMarkdown(answers);
-        writeToFile('README.md', readmeContent);
+        const generatorContent = generateMarkdown(answers);
+        writeToFile('GENERATOR.md', generatorContent);
       })
       .catch((error) => {
         console.error('Error occurred while prompting questions:', error);
